@@ -5,9 +5,7 @@ import os
 from datetime import datetime
 from google.cloud import storage
 
-API_TOKEN = 'f93ccd56bdfbf71298755f2a0ef8baab'
 BASE_URL = 'https://api.football-data.org/v4/competitions'
-HEADERS = {'X-Auth-Token': API_TOKEN}
 BUCKET_NAME = 'football-data-pipeline-bucket'
 DESTINATION_BLOB_NAME = 'raw/leagues.json'
 LOCAL_FILE_NAME = 'leagues.json'
