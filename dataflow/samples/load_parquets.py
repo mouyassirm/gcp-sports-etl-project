@@ -41,7 +41,7 @@ df_competitions = df[['id', 'name', 'type', 'code', 'plan', 'area.id', 'currentS
 })
 
 # Table des saisons (à partir de currentSeason)
-df_saisons = df[['currentSeason.id', 'currentSeason.startDate', 'currentSeason.endDate', 'currentSeason.currentMatchday', 'currentSeason.winner', 'id']].dropna().rename(columns={
+df_saisons = df[['currentSeason.id', 'currentSeason.startDate', 'currentSeason.endDate', 'currentSeason.currentMatchday', 'currentSeason.winner', 'id']].rename(columns={
     'currentSeason.id': 'id',
     'currentSeason.startDate': 'start_date',
     'currentSeason.endDate': 'end_date',

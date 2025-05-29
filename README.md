@@ -21,7 +21,7 @@ Il récupère les données via une API football, stocke les fichiers dans Google
 
 - Récupération des données football via API (ex : API-Football)
 - Stockage des données brutes dans un bucket GCS
-- Traitement et nettoyage des données via Dataflow
+- Traitement et nettoyage des données
 - Chargement dans BigQuery pour analyse
 - Visualisation via Looker
 - Automatisation via DAGs Cloud Composer
